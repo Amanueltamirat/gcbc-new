@@ -7,14 +7,19 @@ const leadership = [
     photo: '/tesfa.jpg',
   },
   {
-    name: 'Yohannes Bekele',
+    name: 'Walelign Kebede',
     title: 'Elder',
-    photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
+    photo: '/walelign.jpg',
+  },
+   {
+    name: 'Shalom Abera',
+    title: 'Elder',
+    photo: '/shalom.jpg',
   },
   {
-    name: 'Bekele Babulo',
-    title: 'Deacon, Youth\u2019s Ministry',
-    photo: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
+    name: 'Tigabu',
+    title: 'Elder',
+    photo: 'https://web.whatsapp.com/a8d31e0a-75ff-40f7-b532-2d6a074c600f',
   },
 ];
 

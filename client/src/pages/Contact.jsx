@@ -64,14 +64,15 @@ export default function Contact() {
           {CONTACT_ITEMS.map(({ icon: Icon, label, value }) => (
             <div
               key={label}
-              className="flex items-center gap-4 rounded-lg bg-paper p-5 shadow-md ring-1 ring-black/5"
+              className="flex items-center gap-4 rounded-lg bg-paper p-5 shadow-md ring-1
+               ring-black/5 "
             >
-              <span className="grid h-11 w-11 shrink-0 place-items-center rounded-full bg-accent/10 text-accent">
-                <Icon size={20} />
+              <span className="grid h-8 w-8 shrink-0 place-items-center rounded-full bg-accent/10 text-accent">
+                <Icon size={15} />
               </span>
-              <div>
+              <div className=''>
                 <p className="text-xs font-semibold uppercase tracking-wide text-muted">{label}</p>
-                <p className="font-semibold text-ink">{value}</p>
+                <p className="font-semibold text-ink text-sm">{value}</p>
               </div>
             </div>
           ))}
